@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta property="og:url" content="http://elfrique.com /vote" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Vote" />
+	<meta property="og:description" content="Elfrique Vote Management, event ticket management,Vendor management system " />
+	<meta property="og:image" content="https://elfrique.com/elfrique.jpg" />
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	crossorigin="anonymous">-->
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://elfrique.com/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://elfrique.com/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://elfrique.com/favicon-16x16.png">
+	<link rel="manifest" href="https://elfrique.com/site.webmanifest">
+	<link rel="mask-icon" href="https://elfrique.com/safari-pinned-tab.svg" color="#47523b">
+	<meta name="msapplication-TileColor" content="#47523b">
+	<meta name="theme-color" content="#32CD32">
+
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link rel="icon" href="https://elfrique.com/images/elfrique_logo.gif" type="image/gif" sizes="30x30">
+	<!--<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">-->
+	<script src="https://elfrique.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://elfrique.com/js/popper.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
+	<!-- <link rel="stylesheet" type="text/css" href="https://elfrique.com/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://elfrique.com/css/carousel.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://elfrique.com/assets/sweetalert/sweetalert.css">
+	<!--<script type="text/javascript" src="https://elfrique.com/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>-->
+	<!--link type="text/css" href="https://elfrique.com/assets/jquery-ui-1.12.1.custom/jquery-ui.min.css">-->
+	<!--<link type="text/css" href="https://elfrique.com/assets/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">-->
+
+	<script src="https://cdn.jsdelivr.net/npm/zebra_datepicker@1.9.6/dist/zebra_datepicker.min.js"></script>
+	<script src="https://elfrique.com/js/responsiveImg.js"></script>
+	<script src="https://elfrique.com/js/jquery.resizeimagetoparent.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zebra_datepicker@1.9.6/dist/css/default/zebra_datepicker.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+	<!-- <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script> -->
+
+	<link href="https://elfrique.com/css/magnific-popup.css" rel="stylesheet" />
+
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="https://elfrique.com/css/stylesheet.css">
+	<!-- start of facebook sdk loading -->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '365227063970532',
+				autoLogAppEvents: true,
+				xfbml: true,
+				version: 'v4.0'
+			});
+		};
+	</script>
+	<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+	<style type="text/css">
+		.badge-drop.dropdown {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+
+		button.badge.bg-white.dropdown-toggle {
+			border: none !important;
+			min-width: auto;
+		}
+
+		button.badge {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background: #c67e38;
+			border-radius: 3px;
+			padding: 5px 10px;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 500;
+			color: #fff;
+		}
+
+		.dropdown-menu.show {
+			display: block;
+			width: 100%;
+		}
+
+		.badge-share .row a i {
+			width: 31px;
+			height: 30px;
+			font-size: 14px;
+			color: #fff;
+			vertical-align: middle;
+			line-height: 30px;
+		}
+
+		.badge-share .row a i.fa-facebook-f {
+			background-color: #3a589a;
+		}
+
+		.badge-share .row a i.fa-twitter {
+			background-color: #4099ff;
+		}
+
+		.badge-share .row a i.fa-whatsapp {
+			background-color: #2cb742;
+		}
+
+		.badge-share .row a i.fa-telegram-plane {
+			background-color: #19a8ee;
+		}
+
+		.badge-share .row a i.fa-envelope {
+			background-color: #ffc000;
+		}
+	</style>
+	<meta name="csrf-token" content="">
+	<title>
+		Vote	</title>
+</head>
+
+<body class="hidden-sn mdb-skin bg-skin-lp events-inner" style="padding-bottom:0">
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!--  Facebook SDK for JavaScript ends here  -->
+	<header id="masthead" class="site-header shadow-lg">
+
+
+
+		<div class="container px-md-5">
+
+			<nav class="navbar navbar-expand-lg justify-content-between navbar-light">
+
+				<a href="https://elfrique.com/" class="navbar-brand" rel="home" itemprop="url">
+
+					<img width="98" height="42" src="https://elfrique.com/img/elfrique-logo.png" class="custom-logo" alt="Elfrique" itemprop="logo">
+
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+					<ul id="primary-menu" class="navbar-nav justify-content-end">
+
+						<li class="nav-item "><a href="https://elfrique.com/" class="nav-link">Home</a></li>
+
+						<li class="nav-item active "><a href="https://elfrique.com/vote" class="nav-link">Voting</a></li>
+
+						<li class="nav-item "><a href="https://elfrique.com/event" class="nav-link">Tickets & Registration</a></li>
+
+						<li class="nav-item "><a href="https://elfrique.com/form" class="nav-link">Event Forms</a></li>
+
+						<li class="nav-item "><a href="https://elfrique.com/trivia/home" class="nav-link">Trivia</a></li>
+						<!-- Button trigger modal -->
+													<li class="nav-item"><a href="#headModal" class="btn nav-link rounded-pill ml-3 ml-lg-5" data-toggle="modal">Signup/Login</a></li>
+											</ul>
+					<!-- <button type="button" class="btn nav-link" data-toggle="modal" data-target="#headModal">Signup/Login</button> -->
+					<!-- Modal -->
+					<div id="headModal" class="modal fade in" tabindex="1" role="dialog" aria-labelledby="headModalTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+							<div class="modal-content border-0">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">×</span>
+									</button>
+									<div class="container-fluid">
+										<div class="row m-0 justify-content-center text-center">
+											<div class="col-12 log-hold">
+												<img src="img/login-avatar.png" class="img-fluid mx-auto">
+												<h5 class="modal-title notblack text-uppercase" id="headModalTitle">Login</h5>
+											</div>
+											<div class="col-12 p-0 login-wrap">
+												<div class="form-social row m-0 p-0 py-2 w-100 justify-content-center">
+													<a href="https://elfrique.com/user/login/fb" class="mx-2 px-1 rounded"><i class="fab fa-facebook-f"></i><span> Signup with Facebook</span></a>
+													<a href="https://elfrique.com/user/login/twt" class="mx-2 px-1 rounded"><i class="fab fa-twitter"></i><span> Signup with Twitter</span></a>
+													<a href="https://elfrique.com/user/login/gmail" class="mx-2 px-1 rounded"><i class="fab fa-google"></i><span> Signup with Google</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-body rounded-bottom">
+									<div class="container-fluid">
+										<div class="row m-0 justify-content-center">
+											<div id="message"></div>
+											<form action="https://elfrique.com/index.php/vote" class="w-100 mx-md-5 px-md-3 text-center" id="votingForm" method="post" accept-charset="utf-8">
+											<div class="form-group text-left">
+												<label for="loginControlEmail">Email address</label>
+												<input type="email" id="email_login" name="email" class="form-control" id="loginControlEmail" aria-describedby="emailHelp" placeholder="johndoe@example.com">
+											</div>
+											<div class="form-group text-left">
+												<label for="loginControlPassword">Password</label>
+												<input type="password" id="passwordlogin" name="password" class="form-control" id="loginControlPassword" placeholder="password">
+											</div>
+											<input type="submit" id="send" name="log-in" class="btn w-100" value="Log in">
+											<a href="https://elfrique.com/forgot_password" class="greentxt small my-3 d-block">I forgot my password</a>
+
+											</form>											<script type="text/javascript">
+												$("#send").click(function(e) {
+													e.preventDefault();
+													var email = $("#email_login").val();
+													var password = $("#passwordlogin").val();
+													if (email == "") {
+														swal("Please enter email!", "required!", "error");
+														$("#message").addClass('alert alert-danger');
+														$("#message").html('Please enter email');
+													} else if (password == "") {
+														swal("Please enter password!", "required!", "error");
+														$("#message").addClass('alert alert-danger');
+														$("#message").html('Please enter password');
+													} else {
+														data = $("#votingForm").serialize();
+
+														$.ajax('https://elfrique.com/organiser/login_organiser', {
+															type: 'post',
+															data: data,
+															success: function(data) {
+
+																if (data == true) {
+																	$("#message").addClass('alert alert-success');
+																	$("#message").html("Login successful");
+																	swal("Login successful!", "Logging in..", "success");
+
+																	$("#send").val('Logging in..');
+																	window.location.href = "https://elfrique.com/organiser/dashboard";
+																} else {
+
+																	$("#message").addClass('alert alert-danger');
+																	swal(data + "!", "Error occured!", "error");
+																	$("#message").html(data);
+																	$("#send").val('Login Failed!');
+																}
+
+															},
+															error: function(jqXHR, textStatus, errorThrown) {
+																if (textStatus = 'error') {
+																	//alert('Request not completed');
+																	swal("Request not completed", "Error occured!", "error");
+																}
+																$("#send").val('Failed');
+															},
+															beforeSend: function() {
+
+																$("#message").removeClass('alert alert-danger');
+																$("#message").html('');
+
+																$("#send").val('Sending..');
+															},
+														});
+
+													}
+
+												});
+											</script>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer text-center">
+									<p class="d-block w-100 text-center">Don't have an account? <a href="#headModal2" class="greentxt" id="signModal" data-toggle="modal">Sign Up</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="headModal2" class="modal fade in" tabindex="1" role="dialog" aria-labelledby="headModal2Title" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+							<div class="modal-content border-0">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">×</span>
+									</button>
+									<div class="container-fluid">
+										<div class="row m-0 justify-content-center text-center">
+											<div class="col-12 log-hold">
+												<img src="https://elfrique.com/img/login-avatar.png" class="img-fluid mx-auto">
+												<h5 class="modal-title notblack text-uppercase" id="headModalTitle">SignUp</h5>
+											</div>
+											<div class="col-12 p-0 login-wrap">
+												<div class="form-social row m-0 p-0 py-2 w-100 justify-content-center">
+													<a href="https://elfrique.com/user/login/fb" class="mx-2 px-1 rounded"><i class="fab fa-facebook-f"></i><span> Signup with Facebook</span></a>
+													<a href="https://elfrique.com/user/login/twt" class="mx-2 px-1 rounded"><i class="fab fa-twitter"></i><span> Signup with Twitter</span></a>
+													<a href="https://elfrique.com/user/login/gmail" class="mx-2 px-1 rounded"><i class="fab fa-google"></i><span> Signup with Google</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-body rounded-bottom" style="overflow:scroll;">
+									<div class="container-fluid">
+										<div class="row m-0 justify-content-center">
+											<div id="message2"></div>
+
+											<form action="https://elfrique.com/index.php/vote" class="w-100 mx-md-3 px-md-2 pb-5" id="register_form" method="post" accept-charset="utf-8">
+											<div class="form-row">
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlEmail">First Name</label>
+													<input type="text" class="form-control" id="first_name" placeholder="Enter First Name" name="first_name">
+												</div>
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlEmail">Last Name</label>
+													<input type="text" class="form-control" id="last_name" placeholder="Enter Last Name" name="last_name" required>
+												</div>
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlEmail">Email address</label>
+													<input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+												</div>
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlEmail">Phone Number</label>
+													<input type="text" class="form-control" id="phone" placeholder="Enter Phone number" required name="phone">
+
+												</div>
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlEmail">Referral Email</label>
+													<p style="font-weight:bold; color:red;">***Please note that referral email must be an email currently registered</p>
+													<input type="email" autocomplete="false" class="form-control" name="ref_email" placeholder="Enter your referral email" />
+												</div>
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlPassword">Password</label>
+													<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+												</div>
+												<div class="form-group col-12 col-md-6 text-left">
+													<label for="loginControlPassword">Confirm Password</label>
+													<input type="password" class="form-control" id="confirm_password" placeholder="Enter Confirmation Password " required name="password_confirm">
+												</div>
+											</div>
+
+											<div class="form-group form-check">
+												<input type="checkbox" class="form-check-input" name="subscribe" id="subscribe" value="1">
+												<label class="form-check-label" for="subscribe">Subscribe to Email updates</label>
+											</div>
+
+											<input type="submit" id="register" name="log-in" class="btn w-100" value="Register">
+											</form>										</div>
+									</div>
+									<script type="text/javascript">
+										$("#register").click(function(e) {
+											e.preventDefault();
+
+											var email = $("#email").val();
+											var password = $("#password").val();
+											var confirm_password = $("#confirm_password").val();
+											var first_name = $("#first_name").val();
+											var last_name = $("#last_name").val();
+											var phone = $("#phone").val();
+
+
+											if (email == "") {
+												//alert('please enter email');
+												swal("Please enter email!", "Error occured!", "error");
+												$("#message2").addClass('alert alert-danger');
+												$("#message2").html('Please enter email');
+											} else if (first_name == "") {
+												//alert('Please enter your first name');
+												swal("Please enter your first name !", "Error occured!", "error");
+												$("#message2").addClass('alert alert-danger');
+												$("#message2").html('Please enter your First name');
+											} else if (last_name == "") {
+												//alert('Please enter your last name');
+												swal("Please enter your last name !", "Error occured!", "error");
+												$("#message2").addClass('alert alert-danger');
+												$("#message2").html('Please enter your last name');
+											} else if (phone == "") {
+												//alert('Please Enter your phone number ');
+												swal("Please Enter your phone number !", "Error occured!", "error");
+												$("#message2").addClass('alert alert-danger');
+												$("#message2").html('Please enter your Phone number');
+											} else if (password == "") {
+												//alert('Please enter password');
+												swal("Please enter password!", "Error occured!", "error");
+												$("#message2").addClass('alert alert-danger');
+												$("#message2").html('Please enter password');
+											} else if (password != confirm_password) {
+												//alert('Passwords dont match');
+												swal("Passwords dont match!", "Error occured!", "error");
+												$("#message2").addClass('alert alert-danger');
+												$("#message2").html('Passwords dont match');
+											} else {
+
+
+												data = $("#register_form").serialize();
+
+												$.ajax('https://elfrique.com/organiser/register_organiser', {
+													type: 'post',
+													data: data,
+													success: function(data) {
+
+														if (data == true) {
+															$("#message2").addClass('alert alert-success');
+															$("#message2").html("Registration successful");
+															swal("Registration successful!", "Logging in..", "success");
+
+															$("#register").html('Logging in..');
+															window.location.href = "https://elfrique.com/organiser/dashboard";
+														} else {
+															swal(data, "Error occured", "error");
+															$("#register").html('Failed!');
+														}
+
+													},
+													error: function(jqXHR, textStatus, errorThrown) {
+														if (textStatus = 'error') {
+															//alert('Request not completed');
+															swal("Request not completed!", "Server Error occured!", "error");
+														}
+														$("#register").html('Failed');
+													},
+													beforeSend: function() {
+
+														$("#message2").removeClass('alert alert-danger');
+														$("#message2").html('');
+
+														$("#register").html('Sending..');
+													},
+												});
+
+											}
+
+										});
+									</script>
+								</div>
+								<div class="modal-footer text-center">
+									<p class="d-block w-100 text-center">Already have an account? <a href="#" class="greentxt">Log in</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					</ul>
+				</div>
+
+			</nav>
+
+		</div>
+
+	</header><main id="main" class="site-main">
+
+
+
+		<section class="banner-service">
+
+			<div id="serviceslide" class="carousel slide" data-ride="carousel">
+
+			  	<ol class="carousel-indicators">
+
+				    <li data-target="#serviceslide" data-slide-to="0" class="active"></li>
+
+				    <!-- <li data-target="#serviceslide" data-slide-to="1"></li>
+
+				    <li data-target="#serviceslide" data-slide-to="2"></li> -->
+
+			  	</ol>
+
+			  	<div class="carousel-inner">
+
+				    <div class="carousel-item active">
+
+				    	<!-- preferred image size 1400px by 500px -->
+
+				      <!-- <img src="img/service-banner1.png" class="d-block w-100" alt="service-banner1"> -->
+                      <img class="first-slide fit_image d-block w-100 img-fluid" style="position:relative;" data-src="https://elfrique.com/images/slider/vote.png" src="https://elfrique.com/images/slider/vote.png" alt="First slide">
+                      
+				    </div>
+
+				    <!-- <div class="carousel-item">
+
+				      <img src="img/voting-banner.jpg" class="d-block w-100" alt="service-banner2">
+
+				    </div>
+
+				    <div class="carousel-item">
+
+				      <img src="img/service-banner1.png" class="d-block w-100" alt="service-banner3">
+
+				    </div> -->
+
+			  	</div>
+
+			</div>
+
+
+
+			<div class="container px-md-5">
+
+
+
+				<div class="">
+
+
+
+					<div class="service-searchbox row justify-content-between p-3 p-md-5 rounded shadow-lg">
+
+
+						<h6 class="col-12">Browse Voting Contests</h6>
+
+
+
+						<div class="service-inner-searchbox col-12 px-0">
+
+                                <form action="https://elfrique.com/index.php/vote/vote_search_result" class="form-inline justify-content-center justify-content-md-end rounded align-items-center my-2" method="post" accept-charset="utf-8">
+
+								<input type="text" name="title" placeholder="Which contest are you looking for?" class="searchword col-10 col-md-4 mx-auto m-md-0 form-controls" style="border-left: 1px solid #000000;">
+
+
+
+								<!-- <select class="form-controls col-10 col-md-3 mx-auto m-md-0 pl-0 pl-md-0 mr-md-0">
+
+
+
+									<option selected="">All Locations</option>
+
+
+
+									<option>Lagos</option>
+
+
+
+									<option>Abuja</option>
+
+
+
+									<option>Port Harcourt</option>
+
+
+
+									<option>Kano</option>
+
+
+
+									<option>Kaduna</option>
+
+
+
+									<option>Oyo state</option>
+
+
+
+								</select> -->
+  
+                               
+                                <div  style="border-left: 1px solid #000000;" class='input-group input-group-sm col-10 col-md-3 mx-auto pl-0 pl-md-0 mr-0 mr-md-0' >
+                            
+                             <!--<input  class="datepicker" name="date" id='date' class="form-control" data-date-format="mm/dd/yyyy" required />-->
+                               
+                                <input id="datepicker" name ="date" placeholder="Date" style="background-color: transparent; border: none; border-bottom: 2px solid #f2f2f2;" class="datepicker form-control"  />
+                                <!-- <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span> -->
+                           
+                            </div>
+            
+
+								<input type="submit" name="btn button" class="btn col-4 col-md-2 h-100 button" value="Search">
+
+
+
+							</form>
+
+
+						</div>
+
+                        <script type="text/javascript">
+                         //date picker initalization
+                        $(document).ready(function() {
+
+                        $('.datepicker').Zebra_DatePicker({
+                            format: 'd/m/y'
+                        });
+
+                     });
+                      </script>   
+
+						<!--<p class="searched">Most Searched Contest: <span>Silverbird MBGN</span></p>-->
+
+
+
+					</div>
+
+
+
+					
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+			
+
+
+
+		</section>
+
+
+
+		<section class="contest-filter">
+
+
+
+			<div class="container p-md-5">
+
+
+
+				<div class="">
+
+
+
+					<div class="filter-nav row m-0 align-content-center justify-content-between">
+
+
+
+						<!-- Tab links -->
+
+
+
+						<!-- <div id="filterbuttons" class="filterbtn row justify-content-center justify-content-md-start m-0 mb-3 my-3">
+
+
+
+						   	<button class="btn p-0 pr-2 rounded-0 filter-button active" data-filter="recent"> Most Recent</button>
+
+
+
+						  	<button class="btn p-0 rounded-0 px-2 filter-button" data-filter="free"> Free Contests</button>
+
+
+
+						  	<button class="btn p-0 rounded-0 px-2 filter-button" data-filter="paid"> Paid Contests</button>
+
+
+
+						</div> -->
+
+
+						<div class="row justify-content-center justify-content-md-start m-0 mb-3 my-3">
+
+							<p class="result-count" id="result-count"></p>
+							
+						</div>
+
+
+
+					</div>
+
+
+
+					<div class="content">
+
+
+
+						<div id="events" class="filtercontent">
+
+
+
+							<div class="row all-card justify-content-center justify-content-md-start" id="vote_div">
+
+					    		
+					    		<!-- <div class="col-12 col-md-4 filter paid recent">
+
+					    			<div class="card justify-content-start border-0">
+
+				    				 	<div style="background-image: url(img/event-banner.png);" class="card-img-top rounded" alt="event-banner"></div>
+
+					    				<span class="badge bg-orange">Dinners</span>
+
+					    				<div class="card-body p-3 position-absolute shadow-lg bg-white rounded">
+
+										    <h5 class="card-title">Annual Gospel Music Awards</h5>
+
+										    <p class="card-text my-3"><span class="date-marker"><i class="fas fa-calendar-alt"></i></span> 29 April 2018 - 29 April 2019 </p>
+
+										    <a href="#" class="btn-primary btn btn2 float-left">Start Voting</a>
+
+										    <p class="float-right"><span class="h2 text-uppercase">paid</span></p>
+
+									  	</div>
+
+					    			</div>    			
+
+					    		</div> -->
+
+
+					    	</div>								      	
+
+					    </div>					
+
+                        <div style="text-align:center"><button id="load_more" data-val = "0"  style="color:white; background-color: #FF7F50; font-weight:bold;"  class ="btn btn-lg">LOAD MORE<img style="display: none" id="loader" src="https://elfrique.com/images/loader.GIF"></button></div>	
+	                	</div>
+
+					</div>
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</section>
+
+
+		<section class="browse">
+
+
+
+			<div class="container p-md-5">
+
+
+
+				<div class="">
+
+
+
+					<div class="row browse-grid">
+
+
+
+						<div class="col-md-4 col-12 grid-item">
+
+
+						<a href="https://elfrique.com/event" >
+
+							<figure class="figure w-100">
+
+
+
+								<img src="img/browse-events-background.png" class="figure-img img-fluid w-100 m-0">
+
+
+
+								<figcaption class="figure-caption text-left p-3 position-absolute">
+
+
+
+									<h4>Browse Events</h4>
+
+
+
+				    				<span class="badge bg-orange">20 Events</span>
+
+
+
+								</figcaption>
+
+
+
+							</figure>
+
+					 	</a>
+
+						</div>
+
+
+
+						<div class="col-md-4 col-12 grid-item">
+							
+
+							<a href="https://elfrique.com/form" class="w-100">
+
+
+								<figure class="figure w-100 position-relative">
+
+
+
+									<img src="img/browse-auditions-background.png" class="figure-img img-fluid w-100 m-0">
+
+
+
+									<figcaption class="figure-caption text-left p-3 position-absolute">
+
+
+
+										<h4>Browse Audition/Screening Forms</h4>
+
+
+
+					    				<span class="badge bg-orange">6  Forms</span>
+
+
+
+
+									</figcaption>
+
+
+
+								</figure>
+
+
+							</a>
+
+
+
+						</div>
+
+						<div class="col-md-4 col-12 grid-item">
+							
+							<a href="https://elfrique.com/trivia/home" class="w-100">
+
+								<figure class="figure w-100 position-relative">
+
+									<img src="https://elfrique.com/img/browse-trivias-background.png" class="figure-img img-fluid w-100 m-0">
+
+									<figcaption class="figure-caption text-left p-3 position-absolute">
+
+										<h4>Browser Trivia</h4>
+
+					    				<span class="badge bg-orange">4  Trivia</span>
+
+
+									</figcaption>
+
+
+
+								</figure>			
+
+
+
+							</a>				
+
+
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+    <script>
+    $(document).ready(function(){
+        get_vote_events(0);
+
+        $("#load_more").click(function(e){
+            e.preventDefault();
+            var page = $(this).data('val');
+            get_vote_events(page);
+			var numberOfItems = $("#vote_div > div").length;
+            $("#result-count").html(numberOfItems+' results');
+
+        });
+        //getcountry();
+    });
+    var get_vote_events = function(page){
+        $("#loader").show();
+        $.ajax({
+            url:"https://elfrique.com/vote/get_vote_events",
+            type:'GET',
+            data: {page:page}
+        }).done(function(response){
+            $("#vote_div").append(response);
+            $("#loader").hide();
+            $('#load_more').data('val', ($('#load_more').data('val')+1));
+			var numberOfItems = $("#vote_div > div").length;
+            $("#result-count").html(numberOfItems+' results');
+           // scroll();
+        });
+    };
+
+    var scroll  = function(){
+        $('html, body').animate({
+            scrollTop: $('#load_more').offset().top
+        }, 400);
+    };
+</script>
+<script>
+function load_category(category_id){
+    if(category_id != ""){
+        window.location.href="https://elfrique.com/event/view_category/"+category_id;
+    }
+}
+</script><br /><br />
+<section class="pre-footer">
+
+  <div class="container p-md-5">
+
+    <div id="showcaselogo" class="carousel slide py-5" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#showcaselogo" data-slide-to="0" class="active"></li>
+        <li data-target="#showcaselogo" data-slide-to="1"></li>
+        <li data-target="#showcaselogo" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner py-4">
+
+        <div class="carousel-item active">
+          <div class="row m-0 justify-content-center">
+            <ul class="img-group row w-100 align-items-center">
+
+              <li><img src="https://elfrique.com/img/silverbirdgroup-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/mbgn-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/hymnodia-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/mrnigeria-logo.png" class="img-fluid"></li>
+
+              <li><img src=" https://elfrique.com/img/fiiro-logo.png" class="img-fluid"></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row m-0 justify-content-center">
+            <ul class="img-group row w-100 align-items-center">
+
+              <li><img src="https://elfrique.com/img/silverbirdgroup-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/mbgn-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/hymnodia-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/mrnigeria-logo.png" class="img-fluid"></li>
+
+              <li><img src=" https://elfrique.com/img/fiiro-logo.png" class="img-fluid"></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <ul class="img-group row w-100 align-items-center">
+
+              <li><img src="https://elfrique.com/img/silverbirdgroup-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/silverbirdgroup-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/hymnodia-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/mrnigeria-logo.png" class="img-fluid"></li>
+
+              <li><img src="https://elfrique.com/img/fiiro-logo.png" class="img-fluid"></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="newletter py-5">
+
+      <div class="row m-0 align-items-center justify-content-center">
+
+        <h4 class="col-12 col-sm-5 mb-3 mb-sm-0">Signup for our Newsletters &amp; Updates</h4>
+
+        <form class="form-inline px-3 col-xs-12 col-sm-5 rounded">
+
+          <div class="form-group form-row w-100 text-xs-center bg-light justify-content-center rounded">
+            <div class="col-xs-8 col-md-8 p-0">
+
+              <input type="text" name="subscribe_email" id="subscribe_email" placeholder="Enter Email Address" class="form-control w-100 border-0">
+
+            </div>
+            <div class="col-xs-6 p-0 col-md-4">
+
+              <input type="submit" name="submit" id="subscribebtn" value="SUBSCRIBE" class="btn button w-100">
+
+            </div>
+
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<!--footer starts here -->
+<!--footer starts here -->
+
+<!--   FOOTER START================== -->
+<footer id="colophon" class="site-footer">
+
+  <div class="footer-widget">
+
+    <div class="container p-md-5">
+
+      <div class="">
+
+        <div class="row m-0 widget-in">
+
+          <div class="col-12 col-lg-6 my-4 my-lg-0 text-center text-lg-left pr-lg-5 flex-column">
+
+            <p class="my-1">Elfrique is a creative and innovative event management company.</p>
+
+            <p class="my-1">We use both our website and 3-digit USSD Multi-Bank Short Code to help event organizers list their upcoming events to sell event tickets faster, carry on with online voting contests, sell event forms or search and find certified event vendors for your event.</p>
+
+            <div class="social my-3">
+
+              <a href="https://www.facebook.com/elfrique/" class="ml-0"><i class="fab fa-facebook-f"></i></a>
+
+              <a href="https://twitter.com/elfrique" class="ml-3"><i class="fab fa-twitter"></i></a>
+
+              <a href="https://www.instagram.com/elfrique/" class="ml-3"><i class="fab fa-instagram"></i></a>
+
+              <!-- <a href="#" class="ml-3"><i class="fab fa-linkedin"></i></a>
+
+              <a href="#" class="ml-3"><i class="fab fa-youtube"></i></a> -->
+
+            </div>
+
+          </div>
+
+          <div class="col-12 col-lg-2 my-4 my-md-0 text-center text-lg-left">
+
+            <h6 class="mb-3">Legal</h6>
+
+            <ul class="navbar-nav flex-column justify-content-start secondary-menu">
+
+              <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+
+              <li class="nav-item"><a href="https://elfrique.com/terms" class="nav-link">Terms & Conditions</a></li>
+
+              <li class="nav-item"><a href="https://elfrique.com/buyers_guide" class="nav-link">Buyer's Guide</a></li>
+
+              <li class="nav-item"><a href="https://elfrique.com/sellers_guide" class="nav-link">Seller's Guide</a></li>
+              
+            </ul>
+
+          </div>
+
+          <div class="col-12 col-lg-2 my-4 my-md-0 text-center text-lg-left">
+
+            <h6 class="mb-3">Quick Links</h6>
+
+            <ul class="navbar-nav flex-column justify-content-start secondary-menu">
+
+              <li class="nav-item"><a href="https://elfrique.com/voting" class="nav-link">Voting Contest</a></li>
+
+              <li class="nav-item"><a href="https://elfrique.com/event" class="nav-link">Events</a></li>
+
+              <li class="nav-item"><a href="https://elfrique.com/form" class="nav-link">Auditions & Reg.</a></li>
+
+              <!-- <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+
+              <li class="nav-item"><a href="#" class="nav-link">Account</a></li> -->
+
+              <li class="nav-item"><a href="https://elfrique.com/about" class="nav-link">About Us</a></li>
+              <li class="nav-item"><a href="https://elfrique.com/home/faq" class="nav-link">Frequently asked questions</a></li>
+
+
+
+            </ul>
+
+          </div>
+
+          <div class="col-12 col-lg-2 my-4 my-md-0 text-center text-lg-left">
+
+            <h6 class="mb-3">Contact</h6>
+
+            <p class="mb-2">Voice Calls Only:<br><a href="tel:+2349071130455" class="orangetxt">+234-907-113-0455</a></p>
+            <p class="mb-2">WhatsApp Only:<br><a href="tel:+2349013209138" class="orangetxt">+234-901-320-9138</a></p>
+            <p class="mb-2">SMS Only:<br><a href="tel:++447452251356" class="orangetxt">++44-745-225-1356</a></p>
+
+            <p>Email Us:<br><a href="mail:info@elfrique.com" class="orangetxt">INFO@ELFRIQUE.COM</a></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="site-copywrite">
+
+    <div class="container p-3 p-md-5">
+
+      <div class="text-center">
+
+        <p>Copyright 2019 Elfrique Solutions | Technology by <a href="https://www.chibuokemibezim.dev/" class="orangetxt" target="_blank">Chibuokem</a></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+<script src="https://elfrique.com/js/script.js"></script>
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.0/js/jquery.magnify.min.js"></script>-->
+<script type="text/javascript">
+  $(document).ready(function() {
+    //$('.card-image-zoom').magnify();
+    $("#subscribebtn").click(function(e) {
+      e.preventDefault();
+      var email = $("#subscribe_email").val();
+      data = {
+        email: email
+      };
+      if (email == "") {
+        // alert("Please enter your email");
+        swal("Please enter your email!", "Email required!", "error");
+
+
+      } else {
+        $.ajax("https://elfrique.com/home/subscribe", {
+          data: data,
+          type: 'post',
+          error: function(jqXHR, textStatus, errorThrown) {
+            if (textStatus = 'error') {
+              alert('Request not completed');
+              $("#subscribe").val('Failed!');
+            }
+          },
+          success: function(data) {
+            if (data == true) {
+              swal("Subscription successful!", "Thank you for subscribing!", "success");
+              $("#subscribebtn").val('Successful!');
+
+            } else {
+              swal(data + "!", "Error occured!", "error");
+              $("#subscribebtn").val('Failed!');
+            }
+
+          },
+          beforeSend: function() {
+            $("#subscribebtn").val('Sending');
+          }
+        });
+      }
+    });
+
+  });
+</script>
+<!--<script src="https://elfrique.com/assets/sweetalert/sweetalert.min.js"></script>-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!--maginific pop up starts here -->
+<script src="https://elfrique.com/js/jquery.magnific-popup.min.js"></script>
+
+<!--Tooltip starts here -->
+<!-- Include Tippy -->
+<script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
+<!-- OPTIONAL: Set the defaults for the auto-initialized tooltips -->
+
+<!--Tooltip ends here -->
+
+<!--magnific pop up ends here -->
+
+
+<script>
+  $(function($) {
+
+    // this script needs to be loaded on every page where an ajax POST may happen
+    $.ajaxSetup({
+      data: {
+        'ci_csrf_token': ''
+      }
+    });
+    // now write your ajax script 
+  });
+</script>
+
+<!--end of facebook sdk loading-->
+<!--start of twitter script-->
+<script>
+  window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));
+</script>
+<!--end of twitter script-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {},
+    Tawk_LoadStart = new Date();
+  (function() {
+    var s1 = document.createElement("script"),
+      s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/5b3b44246d961556373d5b8c/default';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+<script src="https://elfrique.com/upup.min.js"></script>
+<script src="https://elfrique.com/upup.sw.min.js"></script>
+<script>
+  UpUp.addSettings({
+    content: 'Cannot reach site. Please check your internet connection.'
+  });
+  UpUp.start();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+
+</html>
